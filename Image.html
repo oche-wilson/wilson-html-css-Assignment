@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>About Me - Media Page</title>
+</head>
+<body>
+  <a href="./index.html">Go to about me</a>
+ <h1>Responsive Image using Mobile, Tablet and Laptop </h1>
+ <p style="color: red;"> <strong>This page is a demonstration of various HTML media elements.</strong></p>
+<picture>
+  <!-- Source for laptops (large screens) -->
+  <source media="(max-width: 480px)" srcset="./assets/image/Yaro 768.jpg" width="100%">
+
+  <!-- Source for tablets (medium screens) -->
+  <source media="(max-width: 1024px)" srcset="./assets/image/Yaro 540.jpg" width="100%">
+
+  <!-- Source for mobile (small screens) -->
+  <source media="(max-width: 1920px)" srcset="./assets/image/Yaro 768.jpg" width="100%">
+
+  <!-- Fallback image -->
+  <img src="./assets/image/Yaro 768.jpg" alt="oche photoz" width="30%">
+
+</picture>
+ <p style="color:orangered;"><em>Here is an image of me displayed differently depending on the device you are using.!</em></p>
+ <hr>
+ <!-- Other media elements -->
+ <audio controls src="./assets/audio/yaro.mp3">
+ </audio>
+ <p style="color:rgb(211, 81, 34); text-transform: capitalize;"><strong>Listen to my introduction audio clip.!</strong></p>
+ <hr>
+ <video id="myVideo" width="600" height="400" controls>
+  <source src="./assets/video/YaroO clip.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+ </video>
+ <p style="color:rgb(211, 81, 34); text-transform: capitalize;"><strong>Watch a short video about my journey so far.!</strong></p>
+  <p style="text-transform: capitalize;"> <em>Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be
+  successful, Sometimes the first step is simply having faith in your ability to achieve your goals. Whereas
+  Determination, Consistence and dedicatiion are my driving tools.</em><u> Oche Wilson</u> </p>
+  <h5>&copy;<em>Oche-Billion2024</em></h5>
+  <a href="#top">Back to the Top</a>
+</body>
+</html>
